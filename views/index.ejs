@@ -1,0 +1,10 @@
+<%- include('partial/header'); %>
+<%- include('partial/nav'); %>
+
+<h1>Hi <%= name %></h1>
+<form action="/logout" method="POST">
+  <button type="submit">Log Out</button>
+</form>
+
+<%- include('partial/footer'); %>
+
